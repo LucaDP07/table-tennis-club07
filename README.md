@@ -1,7 +1,7 @@
 TABLE TENNIS CLUB 07
-The Table Tennsi Club 07 website is a landing page for passionate players, professional and not, who would like to train or simply have fun in a friendly environment that offers different kind of training sessions four days a week.
+The Table Tennis Club 07 website is a landing page for passionate players, professional and not, who would like to train or simply have fun in a friendly environment that offers different kind of training sessions four days a week.
 
-Using this website users will be able to find all the useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships and contact information.
+Using this website users will be able to find useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships and contact information.
 
 - FEATURES
 Navigation:
