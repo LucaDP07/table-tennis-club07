@@ -89,3 +89,12 @@ header, footer {
   #training-session {
       text-align: center;
   }
+
+  #schedule {
+      background-image: url(../images/rackets.jpg) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      overflow: hidden;
+  }
