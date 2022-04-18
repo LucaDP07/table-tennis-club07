@@ -98,3 +98,15 @@ header, footer {
       width: 100%;
       overflow: hidden;
   }
+
+  #schedule div {
+color: #fafafa;
+background-color: rgba (0, 0, 0, .6);
+width:25%;
+height:150px;
+float:left;
+padding-top: 50px;
+text-align: center;
+border: 2px solid white;
+box-sizing: border-box;
+  }
