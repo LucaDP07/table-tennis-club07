@@ -78,8 +78,14 @@ header, footer {
   /* description */
 
   #description {
-      height: 400px;
+      height: 500px;
       padding-top: 30px;
-      width:70%;
+      width:100%;
       background-color: yellow;
+  }
+
+  /* Training sessions */
+
+  #training-session {
+      text-align: center;
   }
