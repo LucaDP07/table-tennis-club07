@@ -136,21 +136,26 @@ box-sizing: border-box;
   /* sigup form */
 
   .form-box {
-      width: 500px;
       padding:20px;
       margin: auto;
-      background: #7a7cbb;
       font-size:20px;
+      background: url(../images/retro.png);
+      background-size: cover;
+      background-position: center;
+      height: 900px;
   }
 
+
   .form {
-      width: 500px;
-      box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0, 3);
-      background: #fff;
-      padding:20px;
-      margin:8% auto 0;
-      text-align: center;
-  }
+    width: 500px;
+    color:black;
+    box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0, 3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+    border:1px solid black;
+}
 
   .form h1 {
       color:black;
@@ -166,6 +171,7 @@ box-sizing: border-box;
       border:1px solid #999;
       outline:none;
   }
+
 
   button {
       color:#fff;
@@ -184,5 +190,26 @@ box-sizing: border-box;
 
   }
 
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
 
+#logo_2 {
+    font-size:300%;
+    margin-top: -50px;
+    color:#1c8adb;
+    
+
+}
+
+
+  
 
