@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="active">
+        <a href="index.html">
             <i class="fa-solid fa-table-tennis-paddle-ball" id="logo"></i>
         </a>
 
@@ -25,26 +25,38 @@
         </nav>
     </header>
 
-    <section id="table-tennis-outer">
-        <div id="table-tennis"></div>
-    </section>
-    
+  
+    <section class="form-box">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/"></form>
         <div class="form">
-                <h1>Get in touch with us</h1>
+                <h2>Get in touch with us</h2>
                 <form>
                     <label for="name"><b>Name</b></label>
                     <input type="text" class="input-box" placeholder="Enter Name" name="name" required>
-          
+                <br>
                     <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-                
+                    <input type="text" class="input-box" placeholder="Enter Email" name="email" required>
+                <br>
                     <label for="phone"><b>Phone</b></label>
-                    <input type="text" placeholder="Enter Phone" name="phone" required>
-          
-                      <button type="submit" class="signupbtn">Sign Up</button>
+                    <input type="text" class="input-box" placeholder="Enter Phone" name="phone" required>
+                <br>
+                    <label for="beginner"> Beginner</label>
+                    <input type="checkbox" id="beginner" name="beginner" value="beginner" required>
+
+                    <label for="intermediate"> Intermediate</label>
+                    <input type="checkbox" id="intermediate" name="intermediate" value="intermediate" required>
+
+                    <label for="advanced"> Advanced</label>
+                    <input type="checkbox" id="advanced" name="advanced" value="advanced" required>
+
+                    <h4>Send us a message</h4>
+           <textarea name="message" id="message" placeholder="Your Message" rows="4" cols="40">Leave your message here</textarea>
+                        
+
+                      <button type="submit" class="signupbtn">Send a message</button>
                 </form>
             </div>
-
+        </section>
     <footer>
         <ul class="social-icons">
             <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>

@@ -13,7 +13,7 @@ body {
 }
 
 header, footer {
-    background-color: red;
+    background-color:greenyellow;
     color: white;
   }
 
@@ -34,7 +34,7 @@ header, footer {
   /* navigation links */
 
   menu {
-      font-size: 110%;
+      font-size: 200%;
       letter-spacing: 4px;
   }
 
@@ -135,8 +135,16 @@ box-sizing: border-box;
 
   /* sigup form */
 
+  .form-box {
+      width: 500px;
+      padding:20px;
+      margin: auto;
+      background: #7a7cbb;
+      font-size:20px;
+  }
+
   .form {
-      width: 300px;
+      width: 500px;
       box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0, 3);
       background: #fff;
       padding:20px;
@@ -150,11 +158,31 @@ box-sizing: border-box;
       margin-bottom: 30px;
   }
 
-  .input-box {
+  .input-box, #level {
       border-radius: 20px;
       padding:10px;
       margin: 10px 0;
-      width: 10%;
+      width: 30%;
       border:1px solid #999;
       outline:none;
   }
+
+  button {
+      color:#fff;
+      width: 100%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      margin: 10px 0;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+
+  .signupbtn {
+      background-color: #1c8adb;
+
+  }
+
+
+
