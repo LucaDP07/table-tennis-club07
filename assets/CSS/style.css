@@ -139,10 +139,11 @@ box-sizing: border-box;
       padding:20px;
       margin: auto;
       font-size:20px;
-      background: url(../images/retro.png);
+      background: url(../images/balls.jpg);
       background-size: cover;
       background-position: center;
       height: 900px;
+      clear:both;
   }
 
 
@@ -210,6 +211,19 @@ box-sizing: border-box;
 
 }
 
+/* gallery page */
 
+#pictures {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#pictures > img {
+width:100%;
+
+}
   
 
