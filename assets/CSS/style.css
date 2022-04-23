@@ -78,25 +78,47 @@ header, footer {
   /* description */
 
   #description {
-      height: 500px;
+      height: 300px;
       padding-top: 30px;
       width:100%;
+  }
+
+  #description h1 {
+      text-align: center;
+      color: black;
   }
 
   #description-left {
       padding-top: 30px;
       width: 35%;
       float:left;
-      background-color: red;
   }
 
   #description-right {
     padding-top: 30px;
     width: 35%;
-    float:right; 
-    background-color: green;
+    float:right;
   }
 
+  .description-left2 {
+      width: 60%;
+      float:right;
+      line-height: 20px;
+      clear:both;
+      margin-bottom: 50px;
+      color:black;
+  }
+
+  .description-right2 {
+    width: 60%;
+    float:left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+    color:black;
+
+    }
+}
   /* Training sessions */
 
   #training-session {
