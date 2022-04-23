@@ -81,7 +81,20 @@ header, footer {
       height: 500px;
       padding-top: 30px;
       width:100%;
-      background-color: yellow;
+  }
+
+  #description-left {
+      padding-top: 30px;
+      width: 35%;
+      float:left;
+      background-color: red;
+  }
+
+  #description-right {
+    padding-top: 30px;
+    width: 35%;
+    float:right; 
+    background-color: green;
   }
 
   /* Training sessions */
