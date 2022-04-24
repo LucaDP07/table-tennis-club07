@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 
 body {
-    font-family: EB Garamond;
-    font-weight: 300;
-    color: red;
+    background: green;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, footer {
-    background-color:greenyellow;
-    color: white;
+    background-color:white;
+    color: black;
   }
 
   /* headings and logo */
   h1, h2 {
-      font-family: EB Garamond, sans-serif;
       text-transform: uppercase;
       letter-spacing: 4px;
   }
@@ -78,64 +77,51 @@ header, footer {
   /* description */
 
   #description {
-      height: 300px;
+      height: 400px;
       padding-top: 30px;
       width:100%;
   }
 
   #description h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+  .container {
+      display:flex;
       text-align: center;
-      color: black;
+      width: auto;
+      justify-content: center;
   }
 
-  #description-left {
-      padding-top: 30px;
-      width: 35%;
-      width: calc(400px - 30px);
-      height:calc(300px - 30px);
-      float:left;
-      box-sizing: border-box;
-      overflow: hidden;
-      border-radius: 10px;
-      margin:15px;
-      background: red;
-      
-  }
-
-  #description-right {
-    padding-top: 30px;
-    width: 35%;
-    width: calc(400px - 30px);
-    height:calc(300px - 30px);
-    float:right;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-    margin:15px;
-    background: red;
-    
-}
-
-  .description-left2 {
-      width: 60%;
-      float:right;
-      line-height: 20px;
-      clear:both;
+  .container .box {
+      background: #fff;
+      margin:5px;
       margin-bottom: 50px;
-      color:black;
+      width: 300px;
+      padding:20px;
+      line-height: 20px;
+      color:8e8b8b;
+      position: relative;
   }
 
+  .container .box h3 {
+     color:red;
+     font-size: 26px;
+     margin-top: 50px; 
 
-  .description-right2 {
-    width: 60%;
-    float:left;
-    line-height: 20px;
-    clear:both;
-    margin-bottom: 50px;
-    color:black;
+  }
+  
+  .container .box .icon-box {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+  }
+ 
 
-    }
-}
+
   /* Training sessions */
 
   #training-session {
