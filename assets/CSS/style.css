@@ -8,7 +8,6 @@
 
 
 body {
-    background: green;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -69,15 +68,16 @@ header, footer {
   /* table tennis image */
 
   #table-tennis-outer {
-    height: 600px;
-      width:100%;  
-      overflow: hidden;
+    height: 350px;
+    width:100%;  
+    overflow: hidden;
   }
 
+
   #table-tennis {
-      height: 600px;
-      width:100%;
-      background: url(../images/table-tennis.jpg) no-repeat center center;
+    height: 350px;
+    width:100%;
+    background: url(../images/table.jpg) no-repeat center center;
   }
 
   /* description */
@@ -102,13 +102,17 @@ header, footer {
   }
 
   .container .box {
-      background: #fff;
+      background: rgb(239, 202, 137, .7);
       margin:5px;
       margin-bottom: 50px;
-      width: 300px;
-      padding:20px;
+      width: 450px;
+      padding:15px;
+      padding-top: 40px;
       line-height: 20px;
       color:8e8b8b;
+      border-radius: 10px;
+      box-sizing: border-box;
+      letter-spacing: 1px;
       position: relative;
   }
 
@@ -119,11 +123,8 @@ header, footer {
 
   }
   
-  .container .box .icon-box {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-position: absolute;
+  .menu-box {
+    list-style-position: outside;
   }
  
 
@@ -247,7 +248,7 @@ box-sizing: border-box;
     resize: none;
   }
 
-#logo_2 {
+  #logo_2 {
     font-size:300%;
     margin-top: -50px;
     color:#1c8adb;
