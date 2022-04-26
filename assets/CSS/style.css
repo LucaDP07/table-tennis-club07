@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,226 +12,236 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header, footer {
-    background-color:white;
+header,
+footer {
+    background-color: white;
     color: black;
-    overflow:hidden;
-  }
+    overflow: hidden;
+}
 
-  /* headings and logo */
-  h1, h2 {
-      text-transform: uppercase;
-      letter-spacing: 4px;
-  }
+/* headings and logo */
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
-  #logo {
-    float:left;
-    font-size:400%;
+#logo {
+    float: left;
+    font-size: 400%;
     margin-left: 30px;
 }
 
-  /* navigation links */
+/* navigation links */
 
-  menu {
-      font-size: 200%;
-      letter-spacing: 4px;
-  }
+menu {
+    font-size: 200%;
+    letter-spacing: 4px;
+}
 
-  #menu, #logo {
-      line-height: 75px;
-  }
+#menu,
+#logo {
+    line-height: 75px;
+}
 
-  #menu li {
-      float:right;
-      margin-right: 30px;
-      list-style-type:none;
-  }
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
 
-  #menu a {
-      text-decoration:none;
+#menu a {
+    text-decoration: none;
 
-  }
+}
 
-  #menu a:hover {
-      border-bottom: 1px solid #3a3a3a;
-  }
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
 
-  .active {
-    border-bottom: 1px solid #3a3a3a; 
-  }
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
-  /* table tennis image */
+/* table tennis image */
 
-  #table-tennis-outer {
+#table-tennis-outer {
     height: 350px;
-    width:100%;  
+    width: 100%;
     overflow: hidden;
-  }
+}
 
 
-  #table-tennis {
+#table-tennis {
     height: 350px;
-    width:100%;
+    width: 100%;
     background: url(../images/table.jpg) no-repeat center center;
-  }
+}
 
-  /* description */
+/* description */
 
-  #description {
-      height: 400px;
-      padding-top: 30px;
-      width:100%;
-  }
+.description {
+    height: 400px;
+    padding-top: 30px;
+    width: 100%;
+}
 
-  #description h1 {
+.description h1 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     color: black;
-  }
+}
 
-  .container {
-      display:flex;
-      text-align: center;
-      width: auto;
-      justify-content: center;
-  }
+.container {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
 
-  .container .box {
-      background: rgb(239, 202, 137, .7);
-      margin:5px;
-      margin-bottom: 50px;
-      width: 450px;
-      padding:15px;
-      padding-top: 40px;
-      line-height: 20px;
-      color:8e8b8b;
-      border-radius: 10px;
-      box-sizing: border-box;
-      letter-spacing: 1px;
-      position: relative;
-  }
+.container .box {
+    background: rgb(239, 202, 137, .7);
+    margin: 5px;
+    margin-bottom: 50px;
+    height: 280px;
+    width: 450px;
+    padding: 15px;
+    padding-top: 40px;
+    line-height: 20px;
+    color: 8e8b8b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    position: relative;
+}
 
-  .container .box h3 {
-     color:red;
-     font-size: 26px;
-     margin-top: 50px; 
+.container .box h3 {
+    color: red;
+    font-size: 26px;
 
-  }
-  
-  .menu-box, li {
+}
+
+.menu-box,
+li {
     list-style-position: inside;
-  }
- 
+    text-align: justify;
+
+}
 
 
-  /* Training sessions */
+/* Training sessions */
 
-  #training-session {
-      text-align: center;
-  }
+.description-training {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+    padding-bottom: 30px;
 
-  #schedule {
-      background-image: url(../images/rackets.jpg) ;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      overflow: hidden;
-  }
+}
 
-  #schedule div {
+#training-session {
+    text-align: center;
+}
+
+#schedule {
+    background-image: url(../images/rackets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#schedule div {
     color: #fafafa;
     background-color: rgba (0, 0, 0, .6);
-    width:20%;
-    height:150px;
-    float:left;
+    width: 25%;
+    height: 150px;
+    float: left;
     padding-top: 50px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-  }
-
-  /* footer */
-
-  footer {
-      height:200px;
-  }
-
-  .social-icons {
-      text-align: center;
-
-  }
-
-  .social-icons > li {
-      display: inline;
-  }
-
-  .social-icons i {
-      font-size: 160%;
-      margin: 1%;
-      padding: 5%;
-      color:#3a3a3a;
-  }
-
-  /* sigup form */
-
-  .form-box {
-      padding:20px;
-      margin: auto;
-      font-size:20px;
-      background: url(../images/balls.jpg);
-      background-size: cover;
-      background-position: center;
-      height: 900px;
-      clear:both;
-  }
-
-
-  .form {
-    width: 500px;
-    color:black;
-    box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0, 3);
-    background: #fff;
-    padding:20px;
-    margin:8% auto 0;
-    text-align: center;
-    border:1px solid black;
 }
 
-  .form h1 {
-      color:black;
-      font-size: 115%;
-      margin-bottom: 30px;
-  }
+/* footer */
 
-  .input-box, #level {
-      border-radius: 10px;
-      padding:10px;
-      margin: 10px 0;
-      width: 30%;
-      border:1px solid #999;
-      outline:none;
-  }
+footer {
+    height: 160px;
+}
+
+.social-icons {
+    text-align: center;
+
+}
+
+.social-icons>li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* sigup form */
+
+.form-box {
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+    background: url(../images/balls.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    clear: both;
+}
 
 
-  button {
-      color:#fff;
-      width: 100%;
-      padding: 10px;
-      border-radius: 20px;
-      font-size: 15px;
-      margin: 10px 0;
-      border: none;
-      outline: none;
-      cursor: pointer;
-  }
+.form {
+    width: 500px;
+    color: black;
+    box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0, 3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border: 1px solid black;
+}
 
-  .signupbtn {
-      background-color: #1c8adb;
 
-  }
 
-  textarea {
+.input-box,
+#level {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 30%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signupbtn {
+    background-color: #1c8adb;
+
+}
+
+textarea {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -240,29 +251,37 @@ header, footer {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
-  }
+}
 
-  #logo_2 {
-    font-size:300%;
+#logo_2 {
+    font-size: 300%;
     margin-top: -50px;
-    color:#1c8adb;
-    
+    color: #1c8adb;
+
 
 }
 
 /* gallery page */
 
 #pictures {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 
 }
 
-#pictures > img {
-width:100%;
+#pictures>img {
+    width: 100%;
 
 }
-  
 
+/* confirm page */
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

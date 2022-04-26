@@ -29,9 +29,9 @@
 
 
     <section class="form-box">
-        <form class="signup-form" method="POST" action="confirm.html"></form>
+        <form method="GET" action="./confirm.html" class="signup-form"></form>
+
         <div class="form">
-            <i class="fa-solid fa-message" id="logo_2"></i>
             <h2>Get in touch with us</h2>
             <form>
                 <label for="name"><b>Name</b></label>
@@ -41,16 +41,18 @@
                 <input type="email" class="input-box" placeholder="Enter Email" name="email" required>
                 <br>
                 <label for="phone"><b>Phone</b></label>
-                <input type="text" class="input-box" placeholder="Enter Phone" name="phone" required>
+                <input type="tel" class="input-box" placeholder="Enter Phone" name="phone" required>
                 <br>
-                <label for="beginner"> Beginner</label>
-                <input type="checkbox" id="beginner" name="beginner" value="beginner">
 
-                <label for="intermediate"> Intermediate</label>
-                <input type="checkbox" id="intermediate" name="intermediate" value="intermediate">
+                <label for="level"> Select your level:</label>
+                <select name="level" id="level" required>
+                    <option value="">None</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="professional">Professional</option>
+                </select>
 
-                <label for="advanced"> Advanced</label>
-                <input type="checkbox" id="advanced" name="advanced" value="advanced">
 
                 <br><br>
                 <textarea name="message" id="message" placeholder="Leave your message here" rows="4" cols="40"
@@ -61,6 +63,7 @@
             </form>
         </div>
     </section>
+
     <footer>
         <ul class="social-icons">
             <li><a href="https://facebook.com" target="_blank" rel="noopener"
