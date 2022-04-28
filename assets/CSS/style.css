@@ -99,8 +99,7 @@ menu {
     justify-content: center;
 }
 
-.container
-.box {
+.container .box {
     background: rgb(239, 202, 137, .7);
     margin: 5px;
     margin-bottom: 50px;
@@ -310,13 +309,33 @@ textarea {
     #pictures {
         column-count: 3;
     }
-     
+
+    #schedule>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    .description>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
 
 }
+
+/* for medium screens up to 950px */
+
+@media screen and (max-width:950px)
+
 /* for small screens up to 800px */
 
 @media screen and (max-width:800px) {
     #pictures {
         column-count: 2;
     }
+
 }
