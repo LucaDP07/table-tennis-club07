@@ -99,7 +99,8 @@ menu {
     justify-content: center;
 }
 
-.container .box {
+.container
+.box {
     background: rgb(239, 202, 137, .7);
     margin: 5px;
     margin-bottom: 50px;
@@ -289,7 +290,7 @@ textarea {
 .middle {
     font-family: 'Lato', sans-serif;
     color: black;
-    padding:35px 70px;
+    padding: 35px 70px;
     border-radius: 15px;
     letter-spacing: 1px;
     background: #efca89;
@@ -299,4 +300,23 @@ textarea {
     margin-left: 170px;
     text-align: center;
     font-size: 18px;
+}
+
+/* media queries */
+
+/* for big screens up to 1200px */
+
+@media screen and (max-width:1200px) {
+    #pictures {
+        column-count: 3;
+    }
+     
+
+}
+/* for small screens up to 800px */
+
+@media screen and (max-width:800px) {
+    #pictures {
+        column-count: 2;
+    }
 }
