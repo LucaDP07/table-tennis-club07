@@ -278,10 +278,25 @@ textarea {
 
 /* confirm page */
 
+.confirm {
+    background: url(../images/balls.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
 .middle {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding:35px 70px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    background: #efca89;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 75%;
+    margin-left: 170px;
     text-align: center;
+    font-size: 18px;
 }
