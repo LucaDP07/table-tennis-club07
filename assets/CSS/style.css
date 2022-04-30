@@ -316,28 +316,36 @@ textarea {
 /* gallery page */
 
 .pictures {
-    position:;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minimax(400px,400px));
-    column-gap: 10px;
-    row-gap: 10px;
+
+    display:flex;
+   max-width: 1200px;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+   background: black;
+
 
 }
 
 img {
+
     width: 400px;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
     object-fit: cover;
-    object-position: center;
+    object-position: bottom;
     padding: 5px;
     background: black;
-    
+ 
 }
+
+img:hover {
+cursor: pointer;
+opacity: 0.5;
+transition: 0.5s;
+}
+
+
  
 
 /* confirm page */
@@ -387,11 +395,20 @@ img {
         height: 1500px;
     }
 
+    
 }
 
 /* for medium screens up to 950px */
 
 @media screen and (max-width:950px) {
+
+    #menu {
+        clear:left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
     .container .box {
         margin-bottom: 5px;
