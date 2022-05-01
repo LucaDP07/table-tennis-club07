@@ -70,12 +70,7 @@ menu {
 
 /* table tennis image */
 
-#table-tennis-outer {
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
 
-}
 
 
 #table-tennis {
@@ -120,7 +115,7 @@ menu {
     padding: 5px;
     padding-top: 40px;
     line-height: 20px;
-    color: 8e8b8b;
+    color: #8e8b8b;
     border-radius: 10px;
     box-sizing: border-box;
     letter-spacing: 1px;
@@ -183,8 +178,7 @@ li {
     float: left;
     padding-top: 50px;
     text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
+    border: 2px solid #FDFEFE;
 }
 
 /* footer */
