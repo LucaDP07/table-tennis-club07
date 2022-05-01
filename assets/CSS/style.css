@@ -87,7 +87,7 @@ menu {
 /* description */
 
 .wrapper {
-    height: 400px;
+    height: 100%;
     padding-top: 30px;
     width: 100%;
     max-width: 960px;
@@ -311,18 +311,15 @@ textarea {
 }
 
 
-}
-
 /* gallery page */
 
 .pictures {
 
-    display:flex;
-   max-width: 1200px;
-   width: 100%;
-   flex-wrap: wrap;
-   justify-content: center;
-   background: black;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
 
 
 }
@@ -336,17 +333,17 @@ img {
     object-position: bottom;
     padding: 5px;
     background: black;
- 
+
 }
 
 img:hover {
-cursor: pointer;
-opacity: 0.5;
-transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
 }
 
 
- 
+
 
 /* confirm page */
 
@@ -395,7 +392,7 @@ transition: 0.5s;
         height: 1500px;
     }
 
-    
+
 }
 
 /* for medium screens up to 950px */
@@ -403,7 +400,7 @@ transition: 0.5s;
 @media screen and (max-width:950px) {
 
     #menu {
-        clear:left;
+        clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
