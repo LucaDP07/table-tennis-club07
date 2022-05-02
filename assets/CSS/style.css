@@ -107,18 +107,18 @@ menu {
 
 
 .container .box {
-    background: rgb(239, 202, 137, .7);
+    background: #efca89;
+    opacity: 0.7;
     margin: 5px;
-    margin-bottom: 50px;
-    height: 280px;
+    margin-bottom: 35px;
     width: 450px;
     padding: 5px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 20px;
-    color: #8e8b8b;
+    color: black;
     border-radius: 10px;
     box-sizing: border-box;
-    letter-spacing: 1px;
     position: relative;
     flex: 1;
     border: 1px solid black;
