@@ -64,7 +64,7 @@ menu {
     border-bottom: 1px solid #3a3a3a;
 }
 
-a.active {
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -101,7 +101,7 @@ a.active {
     flex-flow: row wrap;
     text-align: center;
     justify-content: center;
-    margin: 5px;
+    margin: auto;
 
 }
 
@@ -111,7 +111,7 @@ a.active {
     opacity: 0.7;
     margin: 5px;
     margin-bottom: 35px;
-    width: 450px;
+    max-width: 450px;
     padding: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -139,10 +139,11 @@ a.active {
     margin-right: 0;
 }
 
-.menu-box,
+.menu-box>
 li {
-    list-style-position: inside;
+
     text-align: justify;
+    margin-left:8%;
 
 }
 
@@ -403,8 +404,6 @@ img:hover {
         margin-bottom: 5px;
         flex-basis: 40%;
     }
-
-   
 
 
 }
