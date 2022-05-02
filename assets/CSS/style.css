@@ -404,14 +404,7 @@ img:hover {
         flex-basis: 40%;
     }
 
-    .container .box:first-child {
-        flex-basis: 100%;
-        margin: 0;
-    }
-
-    .container .box:nth-last-child(2) {
-        margin-right: 0;
-    }
+   
 
 
 }
