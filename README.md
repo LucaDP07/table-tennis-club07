@@ -49,7 +49,7 @@ As a random user of the website I would like to experience a clear design for ea
  - Navigation Bar 
  
  In order to easily navigate through the website, the Navigation Bar is simple and essential with the Logo of the Club on the left side
-(clicking on it the user is able to reach the Home Page from any section) and the links to all the other pages on the right side. The Navigation Bar is consistent in all the sections.
+ (clicking on it the user is able to reach the Home Page from any section) and the links to all the other pages on the right side. The Navigation Bar is consistent in all the sections.
 
 - Footer Links
 
@@ -67,21 +67,22 @@ Here the user can find all the Social Media links to the club. Just like the Nav
  - Contact Page
  
  In order to get in touch with the club, has been created a form to collect the details and to sumbit any query the users should have. this section helps the user to make any question and to submit their details. 
-They are also able to select their level between Beginners/Intermediate/Advanced/Professional.
- Favicon: It helps users to identify the website in the browser tab
+
+ - The Confirm Page
+
+ Once the user submit all the details through the form the Confirm Page opens to inform the user the message has been received and the data provided collected properly.
  
-The Header - Screenshot
+ **Features left to implement**
 
-The Membership section - Screenshot
+ - Icons in each box for "Our Club", "Memberships" and Where to find us" section.
 
-The Gallery section - Screenshot ???
 
-The Contact Us section - Screenshot
 
-- TECHNOLOGIES USED
+**TECHNOLOGIES USED**
+- - -
 
-HTML
-CSS
+HTML - HTML has been used to give structure and content to the website.
+CSS - In order to style the content created with HTML, the CSS language has been used.
 GOOGLE FONTS
 FONT AWESOME
 FLEXBOX?
