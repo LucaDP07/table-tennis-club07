@@ -6,7 +6,7 @@ Using this website users will be able to find useful information to join the Cor
 
 ![Alternate text](/assets/images/amIresponsive.png)
 
-You can view the deployed website here: ****
+You can view the deployed website here: https://lucadp07.github.io/table-tennis-club07/
 
 **UX**
 - - -
