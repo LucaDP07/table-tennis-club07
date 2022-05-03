@@ -81,13 +81,17 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 **TECHNOLOGIES USED**
 - - -
 
-HTML - HTML has been used to give structure and content to the website.
-CSS - In order to style the content created with HTML, the CSS language has been used.
-GOOGLE FONTS
-FONT AWESOME
-FLEXBOX?
+- HTML: HTML has been used to give structure and content to the website.
+- CSS: In order to style the content created with HTML, the CSS language has been used.
+- Google Fonts: I used the Lato and Open Sans font.
+- Font Awesome: I used ther Font Awesome icons for the logo of the Club located at the top-left of the header.
+- Pixabay & Pexels: I used a combination of these two platforms for the images of the Gallery.
 
-- TESTING
+
+**TESTING**
+- - - 
+
+All the pages of the website has ben tested using the developer tools in Google Chrome.
 
 Page tested on different browser
 
