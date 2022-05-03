@@ -4,7 +4,7 @@ The Table Tennis Club 07 website is a website page for passionate players ( prof
 
 Using this website users will be able to find useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships, location and contact information.
 
-- screenshot from am i responsive here
+![Alternate text](/assets/images/amIresponsive.png)
 
 You can view the deployed website here: ****
 
@@ -51,18 +51,26 @@ As a random user of the website I would like to experience a clear design for ea
  In order to easily navigate through the website, the Navigation Bar is simple and essential with the Logo of the Club on the left side
  (clicking on it the user is able to reach the Home Page from any section) and the links to all the other pages on the right side. The Navigation Bar is consistent in all the sections.
 
+ ![Alternate text](/assets/images/NavigationBar.png)
+
 - Footer Links
 
 Here the user can find all the Social Media links to the club. Just like the Navigation Bar, also the Footer can be found in all the pages. This provides armony and a better experience to the user.
+
+![Alternate Text](/assets/images/Footer.png)
 
  - Home Page
  
  In the Home Page the users can find information about the Club, the memberships available and the location. All this is provided thanks to three boxes. This has been done to reach a better visual experience and also to make the content easy to be understood.
  Just below the three boxes, the user cand find the Training Sessions. Four boxes have been created for each day of training. A background picture related to the main topic of the website has also been added in order to cover all the four boxes.
 
+ ![Alternate text](/assets/images/Home.png)
+
  - Gallery Page
  
  A selection of 9 pictures has been created for the Gallery Page. These are random pictures that show players in action or friends having fun while playing.
+
+ ![Alternate text]()
  
  - Contact Page
  
@@ -91,21 +99,30 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 **TESTING**
 - - - 
 
-All the pages of the website has ben tested using the developer tools in Google Chrome.
+All the pages of the website have ben tested using the developer tools in Google Chrome. The code had to be changed along the process in order to achieve the responsiveness required for the project. The preview from Gitpod helped to constantly check all the changes made.
 
-Page tested on different browser
+Testing was performed using a MacBook Air (M1, 2020) on macOS Monterey with the following browsers:
+- - Google Chrome 100.0.4896.127
+- - Safari 15.3
+- - Mozilla Firefox 100.0
 
-Project responsive (http://ami.responsivedesign.is/)
+After testing the website I can confirm the project it's responsive in its all pages and works properly on all standard screen sizes.
 
-The hyperlinks are working
+The hyperlinks are working in each section of the project. 
+- The Header contains links to all the pages and the logo on the left side is a link to the Home Page.
+- The Footer contains links to the Social Media pages.
 
-The contact us page and the form is working
+The form in the Contact Page also works.
+
+- Every field requires an entry and the email field only accepts and email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
+
+
 
 - BUGS
 
 Report the presence of any bug and how you sorted it out
 
-- VALIDATOR TESTING
+* VALIDATOR TESTING
 
 HTML - Check with the official W3C validator (https://validator.w3.org/)
 
@@ -115,15 +132,21 @@ Accessibility - Check with Lighthouse in Devtools
 
 - UNFIXED BUGS
 
-- DEPLOYMENT
+**DEPLOYMENT**
+- - -
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
-In the GitHub repository navigate to the settings tab
-From the source section drop-down menu, select ther Master Branch
-Once the master branch has been selected, the page provided the link to the completed website
-The live link can be found here - Link to the Website
 
-- CREDITS
+- Navigate to my Github repository: https://github.com/LucaDP07/table-tennis-club07
+- In the GitHub repository navigate to the settings tab.
+- Select the pages link from the setting menu on the left hand side.
+- After selecting the main branch, the page provides the link to the completed website
+The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
 
-Content - Code taken from other sources
+**CREDITS**
+- - - 
+
+**Content**
+
+Code taken from other sources
 Media - Pics taken from other sources
 
