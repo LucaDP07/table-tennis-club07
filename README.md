@@ -70,15 +70,19 @@ Here the user can find all the Social Media links to the club. Just like the Nav
  
  A selection of 9 pictures has been created for the Gallery Page. These are random pictures that show players in action or friends having fun while playing.
 
- ![Alternate text]()
+ ![Alternate text](/assets/images/GalleryPage.png)
  
  - Contact Page
  
  In order to get in touch with the club, has been created a form to collect the details and to sumbit any query the users should have. this section helps the user to make any question and to submit their details. 
 
+ ![Alternate text](/assets/images/ContactForm.png)
+
  - The Confirm Page
 
  Once the user submit all the details through the form the Confirm Page opens to inform the user the message has been received and the data provided collected properly.
+
+ ![Alternate text](/assets/images/Thankyou.png)
  
  **Features left to implement**
 
