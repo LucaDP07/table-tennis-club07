@@ -131,13 +131,20 @@ Report the presence of any bug and how you sorted it out
 
 * VALIDATOR TESTING
 
-HTML: No errors were returned Check with the official W3C validator (https://validator.w3.org/)
+HTML: No errors were returned Check with the official W3C validator (https://validator.w3.org/).
 
-CSS - Check with the Jigsaw validator(https://jigsaw.w3.org/css-validator/)
+1. Home Page
+2. Gallery Page
+3. Contact Page
+4. Confirm Page
 
-Accessibility - Check with Lighthouse in Devtools
+CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).Results here.
+
+Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
 - UNFIXED BUGS
+
+No unfixed.
 
 **DEPLOYMENT**
 - - -
