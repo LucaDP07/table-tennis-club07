@@ -9,7 +9,7 @@ Using this website users will be able to find useful information to join the Cor
 
 ![Alternate text](/assets/images/amIresponsive.png)
 
-You can view the deployed website here: https://lucadp07.github.io/table-tennis-club07/
+You can view the deployed website here: https://github.com/LucaDP07/table-tennis-club07
 
 **UX**
 - - -
@@ -96,6 +96,7 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 - Google Fonts: I used the Lato and Open Sans font.
 - Font Awesome: I used ther Font Awesome icons for the logo of the Club located at the top-left of the header.
 - Pixabay & Pexels: I used a combination of these two platforms for the images of the Gallery.
+- Balsamiq Wireframes: I used it to produce low fidelity wireframes to organise the structure of the pages.
 
 
 **TESTING**
@@ -116,7 +117,7 @@ The hyperlinks are working in each section of the project.
 
 The form in the Contact Page also works.
 
-- Every field requires an entry and the email field only accepts and email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
+- Every field requires an entry and the email field only accepts an email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
 
 
 - BUGS
@@ -189,3 +190,5 @@ The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
 - Screenshot under the section "site overview" was created with [Am I responsive](https://ui.dev/amiresponsive).
 
 - Pictures used for the Gallery Page have been taken from [Pixabay](https://pixabay.com/).
+
+- The wireframes have been created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
