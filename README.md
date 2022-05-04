@@ -142,6 +142,21 @@ CSS: No errors were returned when passing through the official (Jigsaw) Validato
 
 Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
+ - Home Page - Mobile
+ ![Alternate text](/assets/images/Home%20Page.png)
+ - Home Page - Desktop
+ ![Alternate text](/assets/images/Home%20Page-Desktop.png)
+ - Gallery Page - Mobile
+ ![Alternate text](/assets/images/Gallery.png)
+ - Gallery Page - Desktop
+ ![Alternate text](/assets/images/Gallery-Desktop.png)
+ - Contact Page - Mobile
+ ![Alternate text](/assets/images/Contact%20Page.png)
+ - Contact Page - Desktop
+ ![Alternate text](/assets/images/Contact%20Page-Desktop.png)
+ 
+
+
 - UNFIXED BUGS
 
 No unfixed.
