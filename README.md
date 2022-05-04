@@ -1,5 +1,8 @@
 # Table Tennis Club 07
 
+**SITE OVERVIEW**
+- - - 
+
 The Table Tennis Club 07 website is a website page for passionate players ( professionals and not ) who would like to train or simply have fun in a friendly environment that offers different kind of training sessions four days a week.
 
 Using this website users will be able to find useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships, location and contact information.
@@ -106,9 +109,9 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 All the pages of the website have ben tested using the developer tools in Google Chrome. The code had to be changed along the process in order to achieve the responsiveness required for the project. The preview from Gitpod helped to constantly check all the changes made.
 
 Testing was performed using a MacBook Air (M1, 2020) on macOS Monterey with the following browsers:
-- - Google Chrome 100.0.4896.127
-- - Safari 15.3
-- - Mozilla Firefox 100.0
+- Google Chrome 100.0.4896.127
+- Safari 15.3
+- Mozilla Firefox 100.0
 
 After testing the website I can confirm the project it's responsive in its all pages and works properly on all standard screen sizes.
 
@@ -128,7 +131,7 @@ Report the presence of any bug and how you sorted it out
 
 * VALIDATOR TESTING
 
-HTML - Check with the official W3C validator (https://validator.w3.org/)
+HTML: No errors were returned Check with the official W3C validator (https://validator.w3.org/)
 
 CSS - Check with the Jigsaw validator(https://jigsaw.w3.org/css-validator/)
 
@@ -140,10 +143,10 @@ Accessibility - Check with Lighthouse in Devtools
 - - -
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- Navigate to my Github repository: https://github.com/LucaDP07/table-tennis-club07
-- In the GitHub repository navigate to the settings tab.
-- Select the pages link from the setting menu on the left hand side.
-- After selecting the main branch, the page provides the link to the completed website
+1. Navigate to my Github repository: https://github.com/LucaDP07/table-tennis-club07
+2. In the GitHub repository navigate to the settings tab.
+3. Select the pages link from the setting menu on the left hand side.
+4. After selecting the main branch, the page provides the link to the completed website
 The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
 
 **CREDITS**
@@ -151,6 +154,22 @@ The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
 
 **Content**
 
-Code taken from other sources
-Media - Pics taken from other sources
+- Header and Footer structure was taken from CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
 
+- In the Home Page the structure of the 3 boxes was inspired by [SoftCode](https://www.youtube.com/channel/UCFMUDZwgjuh0mf9pV0ZaqTw).
+
+- In the Home Page the section "Training Sessions" was inspired by [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
+
+- Gallery structure was inspired by [Web Master](https://www.youtube.com/channel/UCftpQ1d4SbYDrv6MfCel_iw).
+
+- Form structure for the Contact Page was inspired by [DarkCode](https://www.youtube.com/c/DarkCodeOnline).
+
+**Media**
+
+- The icons used for the logo and in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+- All fonts imported from [Google Fonts](https://fonts.google.com/).
+
+- Screenshot under the section "site overview" was created with [Am I responsive](https://ui.dev/amiresponsive).
+
+- Pictures used for the Gallery Page have been taken from [Pixabay](https://pixabay.com/).
