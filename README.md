@@ -128,12 +128,12 @@ In the Gallery, while testing the page on an iPhone SE (375X667), I noticed that
 
 HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/).
 
-1. [Home Page](https://validator.w3.org/nu/#textarea)
-2. [Gallery Page](https://validator.w3.org/nu/#textarea)
-3. [Contact Page](https://validator.w3.org/nu/#textarea)
-4. [Confirm Page](https://validator.w3.org/nu/#textarea)
+1. [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2F)
+2. [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fgallery.html)
+3. [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fcontact.html)
+4. [Confirm Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fconfirm.html%3Fname%3Dwewewe%26lname%3Dwewew%26email%3Dqwewew%2540wewew%26message%3Dswewew)
 
-CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).Results here.
+CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/). Results [here](https://jigsaw.w3.org/css-validator/validator).
 
 Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
