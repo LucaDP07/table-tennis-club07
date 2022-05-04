@@ -72,7 +72,7 @@ menu {
     background: url(../images/table.jpg) no-repeat center center;
 }
 
-/* description */
+/* info about the club */
 
 .wrapper {
     height: 100%;
@@ -128,12 +128,11 @@ menu {
 }
 
 .menu-box>li {
-
     text-align: justify;
     margin-left: 8%;
 }
 
-/* Training sessions */
+/* Schedule Training sessions */
 
 .description-training {
     font-family: 'Lato', sans-serif;
@@ -275,7 +274,6 @@ textarea {
 /* gallery page */
 
 .pictures {
-
     display: flex;
     width: 100%;
     flex-wrap: wrap;

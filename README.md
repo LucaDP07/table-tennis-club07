@@ -20,30 +20,30 @@ The website is designed for any type of screen in mind (Desktop, Smartphone and 
 
 As someone who is passionate about Table Tennis, I want the website to provide all the information necessary to get in touch with the club in order to get more details about what is the goal of the Club, when and where to join and all the memberships available.
 
-As a random user of the website I would like to experience a clear design for each section and an easy navigation through all of the pages.
+As a random user of the website I would like to experience a clear design for each section and an easy navigation through all the pages.
 
 **WIREFRAMES**
 - - -
 
 **Home Page**
 
-- screenshot of the home page wireframe
+![Alternate text](/assets/images/1desktop.png)
 
 **Gallery Page**
 
-- screenshot of the gallery wireframe
+![Alternate text](/assets/images/2desktop.png)
 
 **Contact Page**
 
-- screenshot of the contact page
+![Alternate text](/assets/images/3desktop.png)
 
 **Mobile View**
 
-- screenshot
+![Alternate text](/assets/images/1mobile.png)
 
 **Tablet View**
 
-- screenshot
+![Alternate text](/assets/images/1tablet.png)
 
 
 **FEATURES**
@@ -119,7 +119,6 @@ The form in the Contact Page also works.
 - Every field requires an entry and the email field only accepts and email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
 
 
-
 - BUGS
 
 In the Gallery, while testing the page on an iPhone SE (375X667), I noticed that at the bottom of the page there was a scroll bar. The problem was caused by some pictures that were off screen. I sorted it out by adding a media query for screens up to 400px.
@@ -133,7 +132,7 @@ HTML: No errors were returned when passing through the official W3C Validator. (
 3. [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fcontact.html)
 4. [Confirm Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fconfirm.html%3Fname%3Dwewewe%26lname%3Dwewew%26email%3Dqwewew%2540wewew%26message%3Dswewew)
 
-CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/). Results [here](https://jigsaw.w3.org/css-validator/validator).
+CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).
 
 Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
