@@ -6,11 +6,8 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     font-family: 'Open Sans', sans-serif;
-
 }
 
 header,
@@ -21,10 +18,10 @@ footer {
     padding: 10px;
     margin: 5px;
     text-align: center;
-
 }
 
 /* headings and logo */
+
 h1,
 h2 {
     text-transform: uppercase;
@@ -57,7 +54,6 @@ menu {
 
 #menu a {
     text-decoration: none;
-
 }
 
 #menu a:hover {
@@ -69,9 +65,6 @@ menu {
 }
 
 /* table tennis image */
-
-
-
 
 #table-tennis {
     height: 350px;
@@ -87,7 +80,6 @@ menu {
     width: 100%;
     max-width: 960px;
     margin: 20px auto;
-
 }
 
 .wrapper h1 {
@@ -102,9 +94,7 @@ menu {
     text-align: center;
     justify-content: center;
     margin: auto;
-
 }
-
 
 .container .box {
     background: #efca89;
@@ -122,13 +112,11 @@ menu {
     position: relative;
     flex: 1;
     border: 1px solid black;
-
 }
 
 .container .box h2 {
     color: red;
     font-size: 20px;
-
 }
 
 .box:first-child {
@@ -139,14 +127,11 @@ menu {
     margin-right: 0;
 }
 
-.menu-box>
-li {
+.menu-box>li {
 
     text-align: justify;
-    margin-left:8%;
-
+    margin-left: 8%;
 }
-
 
 /* Training sessions */
 
@@ -155,7 +140,6 @@ li {
     text-align: center;
     color: black;
     padding-bottom: 30px;
-
 }
 
 #training-session {
@@ -190,7 +174,6 @@ footer {
 
 .social-icons {
     text-align: center;
-
 }
 
 .social-icons>li {
@@ -206,8 +189,6 @@ footer {
 
 /* contact page and signup form*/
 
-
-
 .background-image {
     background-image: url(../images/table.jpg);
     background-size: cover;
@@ -215,9 +196,7 @@ footer {
     background-position: center;
     width: 100%;
     overflow: hidden;
-
 }
-
 
 .form {
     max-width: 600px;
@@ -238,13 +217,11 @@ footer {
     font-weight: 200;
 }
 
-
 .field {
     border: 1px solid gray;
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 8px;
-
 }
 
 .field label {
@@ -253,8 +230,6 @@ footer {
     color: #333;
     text-transform: uppercase;
     font-size: 14px;
-
-
 }
 
 .field input,
@@ -265,10 +240,7 @@ footer {
     outline: none;
     font-size: 18px;
     margin-top: 6px;
-
 }
-
-
 
 button {
     display: inline-block;
@@ -286,7 +258,6 @@ button {
 
 .signupbtn {
     background-color: #1c8adb;
-
 }
 
 textarea {
@@ -301,7 +272,6 @@ textarea {
     resize: none;
 }
 
-
 /* gallery page */
 
 .pictures {
@@ -311,12 +281,9 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
     background: white;
-
-
 }
 
 img {
-
     width: 400px;
     height: 350px;
     border-radius: 20px;
@@ -324,7 +291,6 @@ img {
     object-position: bottom;
     padding: 5px;
     background: #efca89;
-
 }
 
 img:hover {
@@ -332,9 +298,6 @@ img:hover {
     opacity: 0.5;
     transition: 0.5s;
 }
-
-
-
 
 /* confirm page */
 
@@ -360,7 +323,7 @@ img:hover {
     padding: 70px 0;
     top: 50%;
     transform: translateY(-50%);
-    width:80%;
+    width: 80%;
 }
 
 /* media queries */
@@ -385,7 +348,6 @@ img:hover {
         height: 1500px;
     }
 
-
 }
 
 /* for medium screens up to 950px */
@@ -404,14 +366,11 @@ img:hover {
         margin-bottom: 5px;
         flex-basis: 40%;
     }
-
-
 }
 
 /* for small screens up to 800px */
 
 @media screen and (max-width:800px) {
-
 
     .container .box {
         flex-basis: 100%;
@@ -419,11 +378,12 @@ img:hover {
     }
 }
 
+/* for small screens up to 400px */
+
 @media screen and (max-width:400px) {
 
     img {
-
-    max-width: 85%;
-    height: auto;
+        max-width: 85%;
+        height: auto;
     }
 }

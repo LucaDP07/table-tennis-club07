@@ -12,11 +12,11 @@
 </head>
 
 <body>
+    <!-- Nav Bar and Logo-->
     <header>
         <a href="index.html">
             <i class="fa-solid fa-table-tennis-paddle-ball" id="logo"></i>
         </a>
-
         <nav>
             <ul id="menu">
                 <li><a href="contact.html" class="active">Contact</a></li>
@@ -25,43 +25,38 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Background image-->
     <div class="background-image">
-
+        <!-- contact form -->
         <section class="contact-form">
-
-
             <div class="form">
                 <h2>Get in touch with us</h2>
                 <form method="GET" action="./confirm.html" class="signup-form">
-
                     <div class="field">
                         <label for="name"><b>Name</b></label>
                         <input type="text" class="input-box" placeholder="Enter Name" name="name" id="name" required>
                     </div>
-
+                    <div class="field">
+                        <label for="lname"><b>Surname</b></label>
+                        <input type="text" class="input-box" placeholder="Enter Surname" name="lname" id="lname"
+                            required>
+                    </div>
                     <div class="field">
                         <label for="email"><b>Email</b></label>
                         <input type="email" class="input-box" placeholder="Enter Email" name="email" id="email"
                             required>
                     </div>
-                    <div class="field">
-                        <label for="phone"><b>Phone</b></label>
-                        <input type="tel" class="input-box" placeholder="Enter Phone" name="phone" id="phone" required>
-                    </div>
+
                     <div class="field">
                         <textarea name="message" id="message" placeholder="Leave your message here" rows="4" cols="40"
                             required></textarea>
                     </div>
-
-
                     <button type="submit" class="signupbtn">Send a message</button>
                 </form>
             </div>
-
         </section>
     </div>
-
+    <!-- footer bar -->
     <footer>
         <ul class="social-icons">
             <li><a href="https://facebook.com" target="_blank" rel="noopener"

@@ -87,11 +87,6 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 
  ![Alternate text](/assets/images/Thankyou.png)
  
- **Features left to implement**
-
- - Icons in each box for "Our Club", "Memberships" and Where to find us" section.
-
-
 
 **TECHNOLOGIES USED**
 - - -
@@ -127,16 +122,16 @@ The form in the Contact Page also works.
 
 - BUGS
 
-Report the presence of any bug and how you sorted it out
+In the Gallery, while testing the page on an iPhone SE (375X667), I noticed that at the bottom of the page there was a scroll bar. The problem was caused by some pictures that were off screen. I sorted it out by adding a media query for screens up to 400px.
 
 * VALIDATOR TESTING
 
-HTML: No errors were returned Check with the official W3C validator (https://validator.w3.org/).
+HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/).
 
-1. Home Page
-2. Gallery Page
-3. Contact Page
-4. Confirm Page
+1. [Home Page](https://validator.w3.org/nu/#textarea)
+2. [Gallery Page](https://validator.w3.org/nu/#textarea)
+3. [Contact Page](https://validator.w3.org/nu/#textarea)
+4. [Confirm Page](https://validator.w3.org/nu/#textarea)
 
 CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).Results here.
 
@@ -159,7 +154,7 @@ Accessibility: I generated a desktop and mobile report for the deployed site thr
 
 - UNFIXED BUGS
 
-No unfixed.
+No unfixed bugs.
 
 **DEPLOYMENT**
 - - -
